@@ -7,6 +7,7 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: './assets/images/socks_green.jpg',
+            description: 'A photo of green socks',
             // solution
             url: 'https://www.google.com/'
             // solution
