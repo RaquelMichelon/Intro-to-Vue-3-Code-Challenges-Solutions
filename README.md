@@ -8,3 +8,6 @@
 
 - Lesson 3 - Attribute Binding
     - Code Challenge L3: Add a url to the data object and Bind the url to an anchor tag’s href attribute.
+
+- Lesson 4 - Conditional Rendering
+    - Code Challenge L4: Add an onSale boolean to the data obj and use that to conditionally render a p tag that says "on Sale" whenever the onSale is true.
