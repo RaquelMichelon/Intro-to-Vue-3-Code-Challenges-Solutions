@@ -17,3 +17,6 @@ Source: https://www.vuemastery.com/courses/intro-to-vue-3
 
 - Lesson 5 - List Rendering
     - Code Challenge L5: Add an array of sizes to the data object and use v-for to display them in a list.
+
+- Lesson 6 - Event Handling
+    - Create a new button that decrements the value of cart.
