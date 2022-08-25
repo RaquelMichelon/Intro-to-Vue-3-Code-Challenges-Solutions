@@ -10,17 +10,21 @@
   </head>
   <body>
     <div id="app">
+      <!-- refering product to our data -->
+      <!-- mustache sintaxe allows to write js expression -->
       <h1>{{ product }}</h1>
       <!-- Solution -->
       <p>{{ description }}</p>
       <!-- Solution -->
     </div>
 
-    <!-- Import App -->
+    <!-- Import App - now we are importing an entire vue app -->
     <script src="./main.js"></script>
 
-    <!-- Mount App -->
+    <!-- Mount App - to mount the app into our dom -->
     <script>
+      //this const refers to the app we've just imported above
+      //the argument is a dom selector to put our app into a piece of the dom which is the div id="app"
       const mountedApp = app.mount('#app')
     </script>
   </body>
