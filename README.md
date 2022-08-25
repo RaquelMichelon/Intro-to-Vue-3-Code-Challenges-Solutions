@@ -11,3 +11,6 @@
 
 - Lesson 4 - Conditional Rendering
     - Code Challenge L4: Add an onSale boolean to the data obj and use that to conditionally render a p tag that says "on Sale" whenever the onSale is true.
+
+- Lesson 5 - List Rendering
+    - Code Challenge L5: Add an array of sizes to the data object and use v-for to display them in a list.
