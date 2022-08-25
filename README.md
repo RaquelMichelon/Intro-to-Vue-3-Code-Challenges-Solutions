@@ -1,5 +1,8 @@
 # Intro-to-Vue-3-Code-Challenges-Solutions
 
+Initial code for Vue Mastery's Intro to Vue 3 course.
+Source: https://www.vuemastery.com/courses/intro-to-vue-3
+
 - Lesson 1 - Intro to Vue 3
     - No code challenge
 
