@@ -38,3 +38,7 @@ Source: https://www.vuemastery.com/courses/intro-to-vue-3
 - Lesson 9 - Components & Props
 
   - Create a new component called 'product-details', which receives the details through a prop called details.
+
+- Lesson 10 - Comunicating Events
+
+  - Add a new button to product-display, which removes the product from the cart.
