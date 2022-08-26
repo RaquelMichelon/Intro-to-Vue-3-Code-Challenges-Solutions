@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue Mastery</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="nav-bar"></div>
+
+      <div class="cart">Cart({{ cart }})</div>
+      
+      <div class="product-display">
+        <div class="product-container">
+          <div class="product-image">
+            <!-- solution -->
+            <img :src="image" :class="[ !inStock ? 'out-of-stock-img' : ''  ]">
+            <!-- solution -->
+          </div>
+          <div class="product-info">
+            <h1>{{ product }}</h1>
+            <p v-if="inStock">In Stock</p>
+            <p v-else>Out of Stock</p>
+            <!-- Style binding Objects -->
+            <div :style="styles">This is a red text made using style binding obj!</div> 
+            <ul>
+              <li v-for="detail in details">{{ detail }}</li>
+            </ul>
+            <!-- How do we display the color itself using style binding? -->
+            <div 
+            v-for="variant in variants" 
+            :key="variant.id" 
+            @mouseover="updateImage(variant.image)"
+            class="color-circle"
+            :style="{ backgroundColor:  variant.color}"> 
+            <!-- backgroundColor is a CSS property -->
+            <!-- the word backgroundColor is in camelCase because it is js -->
+            <!-- style="background-color: green" -->
+            </div>
+            <!-- disable the button when the product is out of stock -->
+            <!-- you can use inline ternary operators too -->
+            <button 
+            class="button"
+            :class="{ disabledButton: !inStock }"
+            :class="[ isActive ? activeClass : '']" 
+            :disabled="!inStock" 
+            @click="addToCart">
+            Add to Cart
+            </button>
+            <button class="button" @click="removeFromCart">Remove Item</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+  </body>
+</html>

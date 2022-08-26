@@ -20,3 +20,9 @@ Source: https://www.vuemastery.com/courses/intro-to-vue-3
 
 - Lesson 6 - Event Handling
     - Create a new button that decrements the value of cart.
+
+- Lesson 7 - Class and Style Binding
+  - Bind the out-of-stock-img class to the image whenever inStock is false.
+
+- Lesson 8 - Computed Properties
+  - Add an onSale boolean to the data. Use a computed property to display the string: ’brand + ’ ’ product + ’ ’ is on sale’, whenever onSale is true.
