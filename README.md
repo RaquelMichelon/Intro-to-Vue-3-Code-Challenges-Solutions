@@ -3,6 +3,26 @@
 Initial code for Vue Mastery's Intro to Vue 3 course.
 Source: https://www.vuemastery.com/courses/intro-to-vue-3
 
+## Project finished
+
+Product in Stock Screen
+
+![](InStock.png)
+
+Product in Out of Stock Screen
+
+![](OutOfStock.png)
+
+Review Form
+
+![](LeaveReview.png)
+
+Product Page with review and cart info
+
+![](SeeCartAndReview.png)
+
+## Step Lessons
+
 - Lesson 1 - Intro to Vue 3
 
   - No code challenge
@@ -42,3 +62,7 @@ Source: https://www.vuemastery.com/courses/intro-to-vue-3
 - Lesson 10 - Comunicating Events
 
   - Add a new button to product-display, which removes the product from the cart.
+
+- Lesson 11 - Forms & v-model
+
+  - Add a question to the review-form: 'Would you recommend this product? '. Record and emit the response, and display it within review-list
