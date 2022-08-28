@@ -9,7 +9,7 @@ Product in Stock Screen
 
 ![](InStock.png)
 
-Product in Out of Stock Screen
+Product Out of Stock Screen
 
 ![](OutOfStock.png)
 
